@@ -127,7 +127,7 @@ public class CurrencyConverter extends JFrame{
                 String result,result2;
 
 
-                String apiKey = "cur_live_NChbTlrPlWdFY92gwL8ww5iXzExCxrkE3wb9zwAv";
+                String apiKey = "";
                 String urlString = "https://api.currencyapi.com/v3/latest?apikey=" + apiKey + "&base_currency=" + base;
 
                 HttpURLConnection connection = null;
